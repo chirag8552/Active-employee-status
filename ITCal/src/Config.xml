@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties> 
+   		<entry key="pmweb.Driver">oracle.jdbc.driver.OracleDriver</entry>
+   		<entry key="pmweb.url">jdbc:oracle:thin:@localhost:1521:xe</entry>
+        <entry key="pmweb.username">pmweb</entry>
+        <entry key="pmweb.password">pmweb</entry>
+        <entry key="pmweb.table">pmweb_table</entry>
+        <entry key="pmweb.columnlabel">empid</entry>
+        
+        <!-- cams configuration -->
+        
+        <entry key="cams.Driver">oracle.jdbc.driver.OracleDriver</entry>
+   		<entry key="cams.url">jdbc:oracle:thin:@localhost:1521:xe</entry>
+        <entry key="cams.username">user1</entry>
+        <entry key="cams.password">user1</entry>
+        <entry key="cams.table">cams_table</entry>
+        <entry key="cams.columnlabel">eid</entry>
+        
+        <!-- icms configuration -->
+        
+        <entry key="icms.Driver">oracle.jdbc.driver.OracleDriver</entry>
+   		<entry key="icms.url">jdbc:oracle:thin:@localhost:1521:xe</entry>
+        <entry key="icms.username">user2</entry>
+        <entry key="icms.password">user2</entry>
+        <entry key="icms.table">icms_table</entry>
+        <entry key="icms.columnlabel">userid</entry>
+        
+        <!-- mysafe configuration -->
+        
+        <entry key="mysafe.Driver">oracle.jdbc.driver.OracleDriver</entry>
+   		<entry key="mysafe.url">jdbc:oracle:thin:@localhost:1521:xe</entry>
+        <entry key="mysafe.username">chirag</entry>
+        <entry key="mysafe.password">1234</entry>
+        <entry key="mysafe.table">employee</entry>
+        <entry key="mysafe.columnlabel">empid</entry>
+        
+   </properties>
+   
+  
